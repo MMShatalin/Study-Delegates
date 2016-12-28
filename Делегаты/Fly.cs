@@ -36,20 +36,21 @@ namespace Делегаты
         public Fly(int speed)
         {
             this.Speed = speed;
-            TypeDesigner += Mes1;
+            //Правка 1 - зачем ты писал += какой в этом смысл тут??? достаточно только = ИМХО и все также будет работать
+            TypeDesigner = Mes1;
         }
         public Fly(int speed, int height)
         {
             this.Speed = speed;
             this.Height = height;
-            TypeDesigner += Mes2;
+            TypeDesigner = Mes2;
         }
         public Fly(int speed, int height, string name)
         {
             this.Speed = speed;
             this.Height = height;
             this.Name = name;
-            TypeDesigner += Mes3;
+            TypeDesigner = Mes3;
         }
         public void ShowConstructor()
         {
