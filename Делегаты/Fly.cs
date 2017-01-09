@@ -67,6 +67,7 @@ namespace Делегаты
         {
             
             //переписал шоу конструктор
+            //hbygygy8
 
             TypeDesigner();
         }
