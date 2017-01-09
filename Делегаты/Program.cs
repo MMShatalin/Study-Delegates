@@ -21,7 +21,7 @@ namespace Делегаты
 
             int i = 6;
             i++;
-
+            MessageBox.Show("Привет!");
             i = 777;
         }
     }
