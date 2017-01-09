@@ -15,7 +15,10 @@ namespace Делегаты
         int _speed;
         public int Speed
         {
-            get { return _speed; }
+            get
+            {
+                return _speed;
+            }
             set { if (_speed >= 0) _speed = value; }
         }
 
@@ -38,6 +41,7 @@ namespace Делегаты
             this.Speed = speed;
             //Правка 1 - зачем ты писал += какой в этом смысл тут??? достаточно только = ИМХО и все также будет работать
             TypeDesigner = Mes1;
+            MessageBox.Show("Михаил, внес изменение!");
         }
         public Fly(int speed, int height)
         {
