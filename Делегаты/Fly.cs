@@ -65,6 +65,9 @@ namespace Делегаты
         }
         public void ShowConstructor()
         {
+            
+            //переписал шоу конструктор
+
             TypeDesigner();
         }
 
