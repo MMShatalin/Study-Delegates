@@ -17,6 +17,10 @@ namespace Делегаты
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            //Мой код
+
+            int i = 6;
+            i++;
         }
     }
 }
