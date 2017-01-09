@@ -56,6 +56,8 @@ namespace Делегаты
         }
         public Fly(int speed, int height, string name)
         {
+
+            // переписал конструктор с 3 параметрами
             this.Speed = speed;
             this.Height = height;
             this.Name = name;
