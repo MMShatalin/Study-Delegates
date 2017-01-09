@@ -47,6 +47,9 @@ namespace Делегаты
         }
         public Fly(int speed, int height)
         {
+
+            //а также переписал конструктор с двумя параметрами
+
             this.Speed = speed;
             this.Height = height;
             TypeDesigner = Mes2;
